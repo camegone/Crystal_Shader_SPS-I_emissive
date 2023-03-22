@@ -1,0 +1,77 @@
+﻿☆Crystal Shaderの使い方
+
+
+-特徴-
+カットされた宝石やオーラクリスタルの反射光のような雰囲気を表現できるシェーダーです。
+角度で色がキラキラ変わるのでキレイです。
+ハードサーフェス向きで、なめらかな表面だと疑似反射のパターンが見えやすくなってしまいます。
+また、後ろの色によって視認性が大きく変わります。
+
+
+◇背景の関係で見づらい場合
+
+Base Colorを変更する
+Surface Coloeを明るくする
+Distortionの数値を小さくする
+Chromatic Aberrationの数値を大きくする
+などが有効です。
+
+
+-各種パラメータ説明-
+
+Base Color tex
+透過色テクスチャ
+
+Base Clolr
+透過色
+色ガラスっぽくなる
+
+Surface Color tex
+反射色テクスチャ
+下のSurface Colorを白くしないと適応されない
+
+Surface Color
+反射色
+明るくすると視認性が上がる
+
+Normal
+ノーマルマップ
+
+alpha
+透過
+
+Metallic
+メタリック
+
+Gloss
+グロス
+
+Repetition
+疑似反射の細かさ
+
+ColorLoop
+疑似反射の色のループ数
+
+Width
+疑似反射の占有率
+
+Coloe Level
+疑似反射の強度
+
+Pasutel Color
+疑似反射の色味
+数値を上げると白に近づく
+
+Distortion
+屈折強度
+数値を下げると屈折が強くなる
+
+Chromatic Aberration
+色収差の大きさ
+
+Light Completion
+ディレクショナルライトが存在しない場合の補助処理
+
+○不具合等ありましたら
+https://twitter.com/lept_on
+までお知らせください

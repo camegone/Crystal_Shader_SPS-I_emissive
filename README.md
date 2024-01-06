@@ -1,5 +1,6 @@
 # Crystal_Shader_SPS-I_emissive
 SPS-I compatible mod of [Crystal Shader (by UNIUNI)](https://booth.pm/ja/items/1148311). also provide emissive texture support. published under the MIT lisence.
+![preview image](https://pbs.twimg.com/media/Fr1oAYSagAAGhfg?format=jpg&name=large)
 
 # Changes
  1. add support for SPS-I rendering. this provide VR support on Unity 2020 (or later).
